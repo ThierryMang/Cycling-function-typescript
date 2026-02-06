@@ -1,0 +1,15 @@
+# Dépendances
+node_modules/
+.pnpm-store/
+
+# Tests & Couverture
+coverage/
+*.log
+
+# OS & Editeurs
+.DS_Store
+.vscode/
+.idea/
+
+# Fichiers de build
+dist/

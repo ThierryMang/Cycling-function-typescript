@@ -1,0 +1,67 @@
+*{margin:0;padding:0;border:0;}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Optionnel : empêche le scroll si le cercle dépasse */
+}
+/*#origine{position:absolute;left:50%;top:50%;width:0;height:0;overflow:visible;}*/
+/*#origine span{display:block;position:absolute;font:400 10px arial;width:70px;height:70px;margin:-35px 0 0 -35px;top:0;left:0;}*/
+#origine {position: relative;top: 50vh;left: 50vw;}
+#origine span { transition: none; } /* Évite les conflits avec JS */
+
+:root {
+  --bg-color: #0b0e14;
+  --text-color: #e0e0e0;
+  --accent-color: #4fc3f7;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#origine {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+#origine span {
+  position: absolute;
+  white-space: nowrap;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--accent-color);
+  text-shadow: 0 0 10px rgba(79, 195, 247, 0.5);
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+#origine span:hover {
+  color: #fff;
+}
+
+#TM{
+    /*position:absolute;
+    top:20px;
+    left:20px;*/
+    display:inline-block;
+    width:16px;
+    height:16px;
+    margin-bottom:-2px;
+    padding:0;
+    margin:0;
+    
+}
+#TM img{
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border:0;
+    margin:0;
+}

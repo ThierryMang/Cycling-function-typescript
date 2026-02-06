@@ -1,0 +1,22 @@
+{
+  "name": "cycling-function",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Animation based on a cycle calculation - Typescript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Thierry Mang",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.2.1",
+    "happy-dom": "^20.5.0",
+    "jsdom": "^27.0.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
